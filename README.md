@@ -12,6 +12,6 @@ Open PowerShell in this folder and run:
 py -m http.server 5173
 ```
 
-Then visit http://localhost:5173. Keep the server running while viewing the page; the bundled app uses root-relative asset paths and is intended to be served from this folder's root.
+Then visit http://localhost:5173. Keep the server running while viewing the page. Relative asset URLs support both root hosting and GitHub Pages project URLs such as `/milecode/`.
 
 The fonts are loaded from Google Fonts, so they require an internet connection. All site images and app/style bundles are stored locally.
