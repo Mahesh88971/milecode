@@ -1,0 +1,5 @@
+/* Hide the experiments section and its navigation links. */
+#experiments,
+a[href="#experiments"] {
+  display: none !important;
+}
